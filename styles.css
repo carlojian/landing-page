@@ -19,6 +19,7 @@ body {
     justify-content: space-between;
     padding: 0 250px;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .header-logo {
@@ -30,6 +31,53 @@ body {
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px;
+    gap: 15px;
+    padding-bottom: 50px;
+}
+
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border-radius: 10px;
+    align-self: flex-start;
+    font-size: 15px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.main-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-image {
+    flex: 1;
+
+}
+
+img {
+    width: 700px;
+    height: 400px;
 }
 
 ul {
