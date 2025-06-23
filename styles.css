@@ -91,6 +91,11 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 .information-header {
     display: flex;
     flex-direction: column;
