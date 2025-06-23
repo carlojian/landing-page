@@ -95,7 +95,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    margin: 10px 0px;
 }
 
 .information-box-container {
@@ -121,4 +121,21 @@ li {
     border: 5px solid;
     border-color: #3882F6;
     border-radius: 25px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: flex-end;
 }
