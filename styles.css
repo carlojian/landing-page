@@ -132,10 +132,50 @@ li {
 
 .quote-text {
     font-size: 36px;
-    font-style: light italic;
+    font-family: light italic;
     color: #1F2937;
+    font-style: italic;
 }
 
 .quote-author {
     align-self: flex-end;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    margin: 80px 200px;
+    padding: 25px 50px;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 50px 0px;
+    justify-content: center;
+}
+
+.cta-button--container {
+    align-self: center;
+    border-color: #F9FAF8;
+}
+
+.cta-main-text {
+    font-size: 30px;
+    margin: 0;
+}
+
+.cta-subtext {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.cta-main-text,
+.cta-subtext {
+    color: #F9FAF8;
 }
